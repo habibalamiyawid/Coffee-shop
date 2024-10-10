@@ -27,6 +27,9 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
+section{
+    padding: 2rem 9%;
+}
 .btn{
     display: inline-block;
     padding: .9rem 1.5rem;
@@ -86,7 +89,34 @@ html{
     cursor: pointer;
     display: none;
 }
+.image img{
+    width: 50%;
+    
+}
+.home{
+    min-height: 100vh;
+    padding-top: 12rem;
+    background: url(../image/coffee-beans-coffee-drink.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .row .content{
+    flex: 1 1 42rem;
+}
+.home .row .image{
+    flex: 1 1 42rem;
+    padding-top: 10rem;
+    text-align: center;
+
+}
 
 
 
@@ -122,6 +152,14 @@ html{
     .header{
         padding: 2rem;
     }
+
+    section{
+        padding: 2rem;
+    }
+
+
+
+
 
 
 }

@@ -29,7 +29,7 @@ var swiper = new Swiper(".review-slider", {
     },
     breakpoints: {
         0: {
-          slidesPerView: 0,
+          slidesPerView: 1,
         },
         768: {
           slidesPerView: 2,
